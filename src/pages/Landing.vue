@@ -21,7 +21,7 @@ import Footer from "./Footer.vue";
           <Hero />
           <SearchBar />
           <Card />
-          <div class="mx-auto text-center pt-12 pb-12 sm:pb-0">
+          <div class="mx-auto text-center mt-12 sm:mt-16 pb-12 sm:pb-0">
             <a>Further information about Helvetia Staking</a>
           </div>
         </div>
