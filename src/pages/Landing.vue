@@ -8,7 +8,9 @@ import Footer from "./Footer.vue";
 
 <template>
   <div class="">
-    <div class="w-full bg-[url('./assets/background.png')] min-h-[93vh]">
+    <div
+      class="w-[100vw] bg-[url('./assets/background.png')] bg-contain min-h-[93vh]"
+    >
       <div className="max-w-6xl mx-auto px-5">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="shrink-0 flex">
@@ -21,9 +23,6 @@ import Footer from "./Footer.vue";
           <Hero />
           <SearchBar />
           <Card />
-          <div class="mx-auto text-center mt-12 sm:mt-16 pb-12 sm:pb-0">
-            <a class="underline">Further information about Helvetia Staking</a>
-          </div>
         </div>
       </div>
     </div>

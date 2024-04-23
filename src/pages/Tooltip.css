@@ -52,7 +52,7 @@
   background: white;
   border-radius: var(--tooltip-radius);
   color: black;
-  box-shadow: 3px 3px 0px var(--outline-border-color);
+  /* box-shadow: 3px 3px 0px var(--outline-border-color); */
 }
 
 .tooltip-container:hover .tooltip::after {
