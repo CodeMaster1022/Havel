@@ -15,7 +15,7 @@ import Footer from "./Footer.vue";
             <div class="mt-1">
               <Logo />
             </div>
-            <h1 class="text-xl font-semibold ml-6">Helvetia Staking</h1>
+            <h1 class="text-xl font-semibold ml-4">Helvetia Staking</h1>
           </div>
         </div>
         <div class="h-[1px] w-full bg-white" />
