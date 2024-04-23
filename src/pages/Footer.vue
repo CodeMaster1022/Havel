@@ -71,7 +71,8 @@
         <a
           href="#0"
           className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out pl-4 text-center"
-          >© 2024 Copyright – All rights reserved</a
+        >
+          Helvetia Staking - Copyright (c)</a
         >
       </div>
     </div>
