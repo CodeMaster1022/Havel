@@ -12,9 +12,7 @@ import Footer from "./Footer.vue";
       <div className="max-w-6xl mx-auto px-5">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="shrink-0 flex">
-            <div class="mt-1">
-              <Logo />
-            </div>
+            <Logo />
             <h1 class="text-xl font-semibold ml-4">Helvetia Staking</h1>
           </div>
         </div>

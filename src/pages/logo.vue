@@ -3,8 +3,8 @@
 <template>
   <div class="w-8 h-8">
     <svg
-      width="20"
-      height="20"
+      width="35"
+      height="31"
       viewBox="0 0 35 31"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
