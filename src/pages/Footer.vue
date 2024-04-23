@@ -66,7 +66,7 @@
       <a
         href="#0"
         className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out pl-4"
-        >Terms</a
+        >© 2024 Copyright – All rights reserved</a
       >
     </div>
   </header>
