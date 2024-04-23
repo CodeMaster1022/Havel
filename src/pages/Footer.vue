@@ -67,7 +67,7 @@
           >
         </div>
       </div>
-      <div class="text-center p-1">
+      <div class="text-center p-1 max-w-[350px]">
         <a
           href="#0"
           className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out pl-4 text-center"
