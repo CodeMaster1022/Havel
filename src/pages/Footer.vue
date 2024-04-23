@@ -72,7 +72,7 @@
           href="#0"
           className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out pl-4 text-center"
         >
-          Helvetia Staking - Copyright (c)</a
+          Helvetia Staking - Copyright ©</a
         >
       </div>
     </div>
