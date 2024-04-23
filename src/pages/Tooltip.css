@@ -1,15 +1,14 @@
 /* This is an example, feel free to delete this code */
 .tooltip-container {
-  --background: #4132c9;
+  /* --background: #4132c9; */
   --support-size: 50px;
-  --tooltip-radius: 10px 10px 10px 0;
+  --tooltip-radius: 10px 10px 10px 10px;
   --outline-border-color: #0096aa;
   position: relative;
-  background: transparent;
+  /* background: transparent; */
   cursor: pointer;
   transition: all 0.2s;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 15px;
   padding-top: 10px;
   padding-left: 10px;
   color: var(--background);
@@ -30,7 +29,7 @@
   /* background: var(--background); */
 }
 .tooltip-container:hover {
-  color: white;
+  color: black;
 }
 .tooltip-container:hover:before {
   width: 100%;
@@ -41,45 +40,20 @@
 }
 .tooltip {
   position: absolute;
-  width: 300px;
+  width: 200px;
   display: inline-block;
   top: 0;
   left: 50%;
-  transform: translate(-105%, 40%);
+  transform: translate(-105%, 70%);
   padding: 0.3em 0.6em;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
-  background: var(--background);
+  background: white;
   border-radius: var(--tooltip-radius);
-  color: white;
+  color: black;
   box-shadow: 3px 3px 0px var(--outline-border-color);
 }
-
-/* .tooltip::after {
-  content: "Hello!👋";
-  display: inline-block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, -50%);
-  background-color: var(--background);
-  text-align: center;
-  border-radius: var(--tooltip-radius);
-} */
-/* .tooltip::before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  border-style: solid;
-  border-width: 10px;
-  left: 50px;
-  transform: translateX(-100%);
-  border-color: transparent var(--background) var(--background) transparent;
-  box-shadow: 0px 3px 0px var(--outline-border-color);
-} */
 
 .tooltip-container:hover .tooltip::after {
   animation: hidden 0.5s 1.5s linear forwards;
@@ -187,7 +161,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.5); /* Engraving color */
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); /* Engraving shadow */
