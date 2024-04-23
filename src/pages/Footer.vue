@@ -8,7 +8,7 @@ import Card from "./Card.vue";
 <template>
   <header class="w-full">
     <div
-      className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[8vh] mt-5"
+      className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[7vh]"
     >
       <div class="w-[300px] flex">
         <ul className="text-sm flex flex-col sm:flex-row">
