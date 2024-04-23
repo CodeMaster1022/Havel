@@ -30,7 +30,7 @@
             type="search"
             id="default-search"
             class="block w-full p-4 ps-10 text-sm h-20 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-100 focus:border-blue-100 dark:bg-gray-100 dark:border-gray-100 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-100 dark:focus:border-blue-100"
-            placeholder="Enter your NIMIQ address here to stake with us..."
+            placeholder="If you are an existing staker with us, please enter your NIMIQ address here to see your payout history"
             required
           />
           <button

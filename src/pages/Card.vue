@@ -1,5 +1,6 @@
 <script setup lang="js">
 import { Motion } from '@oku-ui/motion';
+import VTooltip from 'v-tooltip';
 </script>
 
 <template>
@@ -7,6 +8,8 @@ import { Motion } from '@oku-ui/motion';
     className="mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl pt-6 items-center"
   >
     <motion
+      v-b-tooltip.hover
+      title="Tooltip directive content"
       :hover="{ scale: [null, 1.5, 1.1] }"
       :transition="{ duration: 0.5 }"
       :press="{ scale: 0.8 }"
@@ -16,15 +19,19 @@ import { Motion } from '@oku-ui/motion';
       <p>4 OF STAKERS ⓘ</p>
     </motion>
     <motion
+      v-b-tooltip.hover
+      title="Tooltip directive content"
       :hover="{ scale: [null, 1.5, 1.1] }"
       :transition="{ duration: 0.5 }"
       :press="{ scale: 0.8 }"
       className="relative flex flex-col items-center p-6 border-2 border-white bg-white rounded-xl shadow-xl h-24 backdrop-blur-xl bg-white/10"
     >
-      <h1 class="text-2xl">~90 min</h1>
+      <h1 class="text-2xl">Next Payout</h1>
       <p></p>
     </motion>
     <motion
+      v-b-tooltip.hover
+      title="Tooltip directive content"
       :hover="{ scale: [null, 1.5, 1.1] }"
       :transition="{ duration: 0.5 }"
       :press="{ scale: 0.8 }"
@@ -34,6 +41,8 @@ import { Motion } from '@oku-ui/motion';
       <p>DISTRIBUTION ⓘ</p>
     </motion>
     <motion
+      v-b-tooltip.hover
+      title="Tooltip directive content"
       :hover="{ scale: [null, 1.5, 1.1] }"
       :transition="{ duration: 0.5 }"
       :press="{ scale: 0.8 }"
@@ -63,4 +72,8 @@ import { Motion } from '@oku-ui/motion';
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.v-b-tooltip {
+  width: 200px;
+}
+</style>

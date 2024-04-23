@@ -8,14 +8,14 @@ import Card from "./Card.vue";
 <template>
   <header class="w-full">
     <div
-      className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[8vh]"
+      className="max-w-6xl mx-auto px-5 flex items-center justify-between h-[8vh] mt-5"
     >
       <div class="w-[300px] flex">
-        <ul className="text-sm flex flex-row">
+        <ul className="text-sm flex flex-col sm:flex-row">
           <li className="mb-2">
             <a
               href="#0"
-              className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+              className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out pl-4"
               >Security</a
             >
           </li>
