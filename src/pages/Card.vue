@@ -8,6 +8,7 @@ import './Tooltip.css'
     className="mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl pt-6 items-center"
   >
     <motion
+      :press="{ scale: 0.9 }"
       className="relative flex flex-col border-2 border-white px-3 pb-3 items-center  rounded-xl shadow-xl h-28 backdrop-blur-xl bg-white/10"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -17,29 +18,25 @@ import './Tooltip.css'
             to our validator</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              1
             </div>
           </div>
         </div>
       </div>
       <h1 class="text-2xl">50</h1>
-      <p>4 OF STAKERS</p>
+      <p>NUMBER OF STAKERS</p>
     </motion>
     <motion
+      :press="{ scale: 0.9 }"
       v-b-tooltip.click
       title="Tooltip directive content"
       className="relative flex flex-col items-center px-3 pb-3 border-2 border-white rounded-xl shadow-xl h-28 backdrop-blur-xl bg-white/10"
@@ -51,28 +48,24 @@ import './Tooltip.css'
             to our stakers</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              2
             </div>
           </div>
         </div>
       </div>
-      <h1 class="text-2xl">Next Payout</h1>
+      <h1 class="text-2xl">NEXT PAYOUT</h1>
     </motion>
     <motion
+      :press="{ scale: 0.9 }"
       v-b-tooltip.hover
       title="Tooltip directive content"
       className="relative flex border-2 border-white flex-col items-center px-3 pb-3 bg-white rounded-xl shadow-xl h-28 backdrop-blur-xl bg-white/10"
@@ -84,21 +77,16 @@ import './Tooltip.css'
             us</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              3
             </div>
           </div>
         </div>
@@ -107,6 +95,7 @@ import './Tooltip.css'
       <p>DISTRIBUTION</p>
     </motion>
     <motion
+      :press="{ scale: 0.9 }"
       v-b-tooltip.hover
       title="Tooltip directive content"
       className="relative flex flex-col border-2 border-white items-center px-3 pb-3 bg-white rounded-xl shadow-xl h-28 backdrop-blur-xl bg-white/10"
@@ -117,21 +106,16 @@ import './Tooltip.css'
             >This is how much NIMIQ is staked with us right now</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              4
             </div>
           </div>
         </div>
@@ -140,6 +124,7 @@ import './Tooltip.css'
       <p>TOTAL STAKE</p>
     </motion>
     <motion
+      :press="{ scale: 0.9 }"
       className="relative flex flex-col border-2 border-white items-center px-3 pb-3 bg-white rounded-xl shadow-xl lg:col-start-2 h-28 backdrop-blur-xl bg-white/10"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -148,29 +133,25 @@ import './Tooltip.css'
             >This is the sum of all rewards we have paid</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              5
             </div>
           </div>
         </div>
       </div>
       <h1 class="text-2xl">700M NIM</h1>
-      <p>Rewards paid out</p>
+      <p>REWARDS PAID</p>
     </motion>
     <motion
+      :press="{ scale: 0.9 }"
       className="relative flex flex-col border-2 border-white items-center px-3 pb-3 bg-white rounded-xl shadow-xl  lg:col-start-3 h-28 backdrop-blur-xl bg-white/10"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -179,27 +160,22 @@ import './Tooltip.css'
             >This is how much we deduct from reward payouts</span
           >
           <!-- <span class="text">Tooltip</span> -->
-          <div class="flex-col gap-4 w-full flex items-center justify-center">
+          <div
+            class="relative flex-col gap-4 w-full flex items-center justify-center"
+          >
             <div
-              class="w-4 h-4 border-8 text-blue-400 text-xl animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+              class="w-4 h-4 border-2 animate-spin border-gray-300 flex items-center justify-center border-t-blue-400 rounded-full"
+            ></div>
+            <div
+              class="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-blue-400 text-sm"
             >
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                height="1em"
-                width="1em"
-                class="animate-ping"
-              >
-                <path
-                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
-                ></path>
-              </svg>
+              6
             </div>
           </div>
         </div>
       </div>
       <h1 class="text-2xl">2.9%</h1>
-      <p>Commission</p>
+      <p>COMMISSION</p>
     </motion>
   </div>
 </template>
