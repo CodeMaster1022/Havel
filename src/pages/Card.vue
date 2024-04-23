@@ -36,7 +36,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>NUMBER OF STAKERS</p>
+      <p>Number of Stakers</p>
     </motion>
     <motion
       :press="{ scale: 0.9 }"
@@ -70,7 +70,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>NEXT PAYOUT</p>
+      <p>Next Payout</p>
     </motion>
     <motion
       :press="{ scale: 0.9 }"
@@ -104,7 +104,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>DISTRIBUTION</p>
+      <p>Distribution</p>
     </motion>
     <motion
       :press="{ scale: 0.9 }"
@@ -137,7 +137,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>TOTAL STAKE</p>
+      <p>Total Stake</p>
     </motion>
     <motion
       :press="{ scale: 0.9 }"
@@ -168,7 +168,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>REWARDS PAID</p>
+      <p>Rewards Paid</p>
     </motion>
     <motion
       :press="{ scale: 0.9 }"
@@ -199,7 +199,7 @@ import './Tooltip.css'
           <div class="bar12"></div>
         </div>
       </div>
-      <p>COMMISSION</p>
+      <p>Commission</p>
     </motion>
   </div>
 </template>
