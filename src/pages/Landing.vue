@@ -8,7 +8,7 @@ import Footer from "./Footer.vue";
 
 <template>
   <div class="">
-    <div class="w-full bg-[url('./assets/background.png')] min-h-[92vh]">
+    <div class="container-div">
       <div className="max-w-6xl mx-auto px-5">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="shrink-0 flex">

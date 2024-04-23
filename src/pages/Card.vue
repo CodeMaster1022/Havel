@@ -8,6 +8,7 @@ import './Tooltip.css'
     className="mx-auto grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl pt-6 items-center"
   >
     <motion
+      :press="{ scale: 0.9 }"
       className="relative flex flex-col border-2 border-white px-3 pb-3 items-center  rounded-xl shadow-xl h-32 backdrop-blur-sm bg-white/2"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -40,8 +41,6 @@ import './Tooltip.css'
     </motion>
     <motion
       :press="{ scale: 0.9 }"
-      v-b-tooltip.click
-      title="Tooltip directive content"
       className="relative flex border-2 backdrop-blur-sm bg-white/2 flex-col items-center px-3 pb-3  rounded-xl shadow-xl h-32"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -74,8 +73,6 @@ import './Tooltip.css'
     </motion>
     <motion
       :press="{ scale: 0.9 }"
-      v-b-tooltip.hover
-      title="Tooltip directive content"
       className="relative flex border-2 backdrop-blur-sm bg-white/2 flex-col items-center px-3 pb-3  rounded-xl shadow-xl h-32"
     >
       <div class="w-[100%] flex flex-row-reverse">
@@ -108,8 +105,6 @@ import './Tooltip.css'
     </motion>
     <motion
       :press="{ scale: 0.9 }"
-      v-b-tooltip.hover
-      title="Tooltip directive content"
       className="relative flex flex-col border-2 border-white items-center px-3 pb-3 rounded-xl shadow-xl h-32 backdrop-blur-sm bg-white/2"
     >
       <div class="w-[100%] flex flex-row-reverse">

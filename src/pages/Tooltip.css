@@ -268,3 +268,12 @@
   transform: rotate(330deg) translate(0, -130%);
   animation-delay: -0.1s;
 }
+.container-div {
+  width: 100vw;
+  min-height: 92vh;
+  background-image: url("../assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
