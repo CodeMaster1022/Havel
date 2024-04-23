@@ -76,7 +76,7 @@ import './Tooltip.css'
       :press="{ scale: 0.9 }"
       v-b-tooltip.hover
       title="Tooltip directive content"
-      className="relative flex border-2 border-white flex-col items-center px-3 pb-3 bg-white rounded-xl shadow-xl h-32 backdrop-blur-xl bg-white/10"
+      className="relative flex border-2 backdrop-blur-md bg-white/30 flex-col items-center px-3 pb-3  rounded-xl shadow-xl h-32 "
     >
       <div class="w-[100%] flex flex-row-reverse">
         <div class="tooltip-container">
